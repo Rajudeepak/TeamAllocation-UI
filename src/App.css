@@ -1,0 +1,33 @@
+body{
+  font-family: Arial;
+}
+.card-collection{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.standout{
+  box-shadow: rgba(108, 212, 160, 0.895) 0px 1px 4px, rgb(0, 163, 33) 0px 0px 0px 4px;
+}
+
+h1,h2,h3,h4,h5,p{
+    text-align:center;
+}
+
+@media only screen and (max-width:600px){
+  .card-collection{
+    grid-template-columns: 1fr;
+  }
+}
+
+.tryout{
+  background-color: black;
+}
+
+.carousel-control-prev-icon{
+  background-color: black;
+}
+
+.carousel-control-next-icon{
+  background-color: black;
+}
+
